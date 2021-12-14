@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 public class othercontroller : ControllerBase
 {
     [HttpGet]
-    public string GetString(){
+    public string GetString()
+    {
         return "hi";
     }
 }
